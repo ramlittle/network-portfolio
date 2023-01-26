@@ -1,0 +1,49 @@
+.myColorSkyblue{
+	background-color:skyblue;
+}
+.myColor2{
+	/*a dffierent shade of blue*/
+	background-color:#00A1C9;
+}
+.myColor3{
+		/*a shade of brown */
+	background-color:#96700F;
+}	
+.myColor4{
+		/*another shade of blue*/
+		background-color:#0083A3;
+	}
+.myMarginRemoved{
+	margin:0;
+}
+.mySize{
+		height:300px;
+		width:250px
+}
+.myPic {
+  transition: transform .2s; /* Animation */
+}
+.myPic:hover {
+  transform: scale(1.025); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  border:1px solid grey;
+}
+.myTilt{
+	transition: transform .2s; 
+}
+.myTilt:hover{
+	transform: rotate(2deg);
+	color:blue;
+}
+.btn-design{
+	color:white;
+	padding:5px;
+	background-color:goldenrod;
+	border-radius: 5px;
+	text-decoration:none;
+}
+
+.btn-design:hover{
+	color: black;
+	background-color:goldenrod;
+	text-decoration:none;
+}
